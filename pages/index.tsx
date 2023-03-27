@@ -5,15 +5,27 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
         <title>Andrew&apos;s Portfolio</title>
       </Head>
-      <main>
-        <div>
-          <h1 className='text-red-500'> Currently: Building a cool portfolio </h1>
-        </div>
-      </main>
-    </>
+
+      {/* Header */}
+
+      {/* Hero */}
+
+      {/* About */}
+
+      {/* Experience */}
+
+      {/* Skills */}
+
+      {/* Project */}
+
+      {/* Contact  */}
+
+
+
+    </div>
   )
 }
