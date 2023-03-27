@@ -23,15 +23,15 @@ export default function Header({}: Props) {
       }}
       className='flex flex-row items-center'>
       <SocialIcon
-      url="https://twitter.com/jaketrent"
+      url="https://www.linkedin.com/in/andrew-almeida1/"
       fgColor='gray'
       bgColor='transparent'/>
       <SocialIcon
-      url="https://twitter.com/jaketrent"
+      url="https://github.com/Andrew-M-A"
       fgColor='gray'
       bgColor='transparent'/>
       <SocialIcon
-      url="https://twitter.com/jaketrent"
+      url="https://www.withaid.org/"
       fgColor='gray'
       bgColor='transparent'/>
     </motion.div>
@@ -45,10 +45,10 @@ export default function Header({}: Props) {
     animate={{
       x: 0,
       opacity: 1,
-      scale: 1
+      scale: 1.5
     }}
     transition={{
-      duration: 1.5
+      duration: 1
     }}
     className='flex flex-row items-center text-gray-300 cursor-pointer'>
     <SocialIcon
