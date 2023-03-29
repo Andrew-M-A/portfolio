@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .heroButton {
+    @apply px-6 py-2 border border-[#242424] rounded-full text-xs
+           tracking-widest text-gray-500 transition-all
+           hover:border-[#F7AB0A]/40
+           hover:text-[#F7AB0A]/40
+  }
+
+.sky {
+  display: flex;
+  justify-content: space-between;
+  padding: 5em;
+}
+
+.sun {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #FFD700;
+  box-shadow: 0 0 20px 10px #FFD700, 0 0 40px 20px #FFA500, 0 0 60px 30px #FF8C00, 0 0 80px 40px #FF4500;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 20px 10px #fffae5, 0 0 40px 20px #fffae5, 0 0 60px 30px #FF8C00, 0 0 80px 40px #FF4500;
+  }
+  to {
+    box-shadow: 0 0 30px 10px #FFD700, 0 0 60px 20px #FFA500, 0 0 90px 30px #FF8C00, 0 0 120px 40px #FF4500;
+  }
+}
+
+.moon {
+  width: 100px;
+  height: 100px;
+  border-color: black;
+  border-radius: 50%;
+  background-color: #fffae5; /* set the background color to a light gray */
+  box-shadow: 0 0 20px 10px #F0EDE5, 0 0 40px 20px #F0EDE5, 0 0 60px 30px #fffae5, 0 0 80px 40px #F0EDE5; /* add multiple box shadows to create the glowing effect */
+  }
+
+}
