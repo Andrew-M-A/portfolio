@@ -22,7 +22,7 @@ function Hero({}: Props) {
       <Background/>
       <img
       className='relative rounded-full h-32 w-32 mx-auto object-cover'
-      src={String(img)}
+      src='https://media.licdn.com/dms/image/D5603AQEv7_Y8S-_IEw/profile-displayphoto-shrink_100_100/0/1679972877520?e=1685577600&v=beta&t=LHgbtnkbVjTp5_Gl1HH3lsmCwNzIBbiVvAhQlmw0Zbo'
       alt="portrait of self" />
 
       <div className='z-20'>

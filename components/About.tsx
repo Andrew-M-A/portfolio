@@ -27,7 +27,7 @@ function About({}: Props) {
         opacity: 1
       }}
       viewport={{ once: true }}
-      src='public/next.svg'
+      src="https://media.licdn.com/dms/image/D5603AQEv7_Y8S-_IEw/profile-displayphoto-shrink_100_100/0/1679972877520?e=1685577600&v=beta&t=LHgbtnkbVjTp5_Gl1HH3lsmCwNzIBbiVvAhQlmw0Zbo"
       alt='another portrait'
       />
       <div className='space-y-10 px-0 md:px-10'>
