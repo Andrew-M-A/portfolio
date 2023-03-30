@@ -25,7 +25,7 @@ function Hero({}: Props) {
       src={String(img)}
       alt="portrait of self" />
 
-      <div>
+      <div className='z-20'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
           Front End Developer
         </h2>
@@ -37,13 +37,13 @@ function Hero({}: Props) {
         <Link href="#about">
         <button className='heroButton'> About </button>
         </Link>
-                <Link href="#experience">
+        <Link href="#experience">
         <button className='heroButton'> Experience </button>
         </Link>
-                <Link href="#skills">
+        <Link href="#skills">
         <button className='heroButton'> Skills </button>
         </Link>
-                <Link href="#projects">
+        <Link href="#projects">
         <button className='heroButton'> Projects </button>
         </Link>
       </div>
