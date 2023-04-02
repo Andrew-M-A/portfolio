@@ -1,4 +1,5 @@
 import React from "react";
+import { PhoneIcon, EnvelopeIcon, MapPinIcon } from "@heroicons/react/24/solid";
 
 type Props = {};
 
@@ -13,7 +14,21 @@ function Contact({}: Props) {
           Can't wait to hear from you!{" "}
           <span className="decoration-[#F7AB0A]/50 underline">Contact Me</span>
         </h4>
-        <div></div>
+        <div className="flex justify-center items-center space-x-5">
+          <PhoneIcon className="text-[#F7AB0A] j-7 w-7 animate-pulse" />
+          <p className="text-2xl">2533802356</p>
+        </div>
+        <div className="flex justify-center items-center space-x-5">
+          <EnvelopeIcon className="text-[#F7AB0A] j-7 w-7 animate-pulse" />
+          <p className="text-2xl">am.almeida000@gmail.com</p>
+        </div>
+        <div className="flex justify-center items-center space-x-5">
+          <MapPinIcon className="text-[#F7AB0A] j-7 w-7 animate-pulse" />
+          <p className="text-2xl">
+            4135 38th Street <br />
+            San Diego, California 92105
+          </p>
+        </div>
       </div>
     </div>
   );
