@@ -17,7 +17,6 @@ function Experience({}: Props) {
       </h3>
       <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]">
         <ExperienceCard />
-        <ExperienceCard />
       </div>
     </motion.div>
   );
