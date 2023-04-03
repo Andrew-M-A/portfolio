@@ -8,7 +8,12 @@
            tracking-widest text-gray-500 transition-all
            hover:border-[#F7AB0A]/40
            hover:text-[#F7AB0A]/40
+
   }
+  .contactInput {
+    @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A]/40 hover:border-[#F7AB0A]/40
+  }
+}
 
 .sky {
   display: flex;
@@ -42,5 +47,3 @@
   background-color: #fffae5; /* set the background color to a light gray */
   box-shadow: 0 0 20px 10px #F0EDE5, 0 0 40px 20px #F0EDE5, 0 0 60px 30px #fffae5, 0 0 80px 40px #F0EDE5; /* add multiple box shadows to create the glowing effect */
   }
-
-}
