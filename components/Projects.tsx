@@ -7,7 +7,7 @@ function Projects({}: Props) {
   const projects = [1, 2, 3, 4, 5];
 
   return (
-    <div className="h-screen relative flex justify-evenly items-center overflow-hidden text-left mx-auto md:flex-row max-w-full z-0">
+    <div className="h-screen relative flex justify-evenly items-center overflow-hidden text-left mx-auto md:flex-row max-w-full z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]">
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
