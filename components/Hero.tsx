@@ -2,7 +2,7 @@ import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import Link from "next/link";
 import Background from "@/components/Background";
-import img from "public/profile.jpeg";
+import img from "pages/public/profile.jpeg";
 
 type Props = {};
 
@@ -17,7 +17,7 @@ function Hero({}: Props) {
       <Background />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="https://media.licdn.com/dms/image/D5603AQEv7_Y8S-_IEw/profile-displayphoto-shrink_100_100/0/1679972877520?e=1685577600&v=beta&t=LHgbtnkbVjTp5_Gl1HH3lsmCwNzIBbiVvAhQlmw0Zbo"
+        src={img.src}
         alt="portrait of self"
       />
 
